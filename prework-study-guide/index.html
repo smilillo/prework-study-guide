@@ -28,21 +28,57 @@
           <li>Within the HTML opening tag there are attributes, such as the language attribute.</li>
           <li>Attributes define additional information about an element.</li>
           <li>The head element contains information about the webpage, known as metadata. This metadata allows the browser to correctly render the page.</li>
-          
+          <li>The following six elements are all child elements of the head element.</li>
+          <li>The title element defines the title of a webpage. A title is required for a webpage and improves Search Engine Optimization (SEO), meaning the webpage will show up more frequently in relevant searches.</li>
+          <li>The style element defines the CSS styles associated with a webpage.</li>
+          <li>The base element defines the base URL for the webpage.</li>
+          <li>The link element connects external resources to the HTML document, such as CSS stylesheets.</li>
+          <li>The meta element defines metadata such as the character set, description, keywords, author, and viewport.</li>
+          <li>The script element embeds client-side scripts into the HTML document.</li>
+          <li>Semantic HTML elements are elements that have names that describe the content and role of the element, such as the body element.</li>
+          <li>Semantic elements should be used when possible in order to make the HTML document easier for other developers and the browser to read.</li>
+          <li>Semantic elements allow the webpage to be more accessible to users, including those using assistive technology such as screen readers.</li>
+          <li>Non-semantic elements should be used when they are the most efficient solution to a structural problem.</li>
+          <li>The body element defines the body of the document and contains the content that is visible to the user.</li>
+          <li>Common child elements within the body element include heading elements, paragraph elements, image elements, and the footer element.</li>
         </ul>
       </section>
    
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>A margin indicates how much space we want around the outside of an element.</li>
-          <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li>Cascading Style Sheets (CSS) is a programming language used to stylize content by defining the colors, aesthetics, visual layout, and organization.</li>
+          <li>Inline CSS is used to style an element directly in the HTML file. This is useful for quick and permanent changes but is not the best approach for most styling.</li>
+          <li>An internal style sheet is an entire stylesheet embedded directly in the HTML file using the style element within the head element.</li>
+          <li>External CSS style sheets are the most common way to style a webpage and keep all CSS rules in a separate file, making design changes easier.</li>
+          <li>External style sheets are linked to the HTML document using a link element in the head element.</li>
+          <li>CSS rules are made up of a selector and a declaration block. The selector defines the element or attributes to which the declarations will apply and the declaration block contains the property and value.</li>
+          <li>The margin property indicates how much space we want around the outside of an element.</li>
+          <li>The padding property indicates how much space we want around the content inside an element.</li>
+          <li>The positioning property is a text-align property that centers a title or heading.</li>
         </ul>
       </section>
       
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
+          <li>GitHub is a cloud-based hosting service that hosts project code inside remote repositories, this allows us to track our projects and easily collaborate with others on projects.</li>
+          <li>Git commands are entered into the terminal and always begin with git.</li>
+          <li>GitHub's remote repositories allow multiple team members to work on a single project at the same time while building code, tracking changes, and creating solutions.</li>
+          <li>A repository (repo) is a folder in which all files for a project and their version histories are stored, including files that contain code, files that contain other information about the code, and version history for all the files.</li>
+          <li>A branch is a workspace that can be worked on independently without affecting the live site.</li>
+          <li>A pull request (PR) is a way to ask for changes made to a branch to be merged into another branch.</li>
+          <li>Pull requests allow other team members to view changes made, discuss them, and review the content changes before the branch containing those changes is merged into the main branch.</li>
+          <li>After a pull request is approved, the commit will be pulled from one branch into another and then deployed on the live site.</li>
+          <li>Issues are used to track progress on a project and to allow users to report new tasks and content fixes.</li>
+          <li>Issues help teams to avoid duplicating work by assigning tasks.</li>
+          <li>Federalist is a unified interface platform that securely deploys a website from a GitHub repo and lets users preview proposed and published changes.</li>
+          <li>The local environment is the workspace where each developer does their work independently on their own computer.</li>
+          <li>The GitHub repo needs to be synced with the local environment in order to ensure that all changes are tracked and that the code being worked on is up-to-date for all team members.</li>
+          <li>GitHub flow refers to the process of creating a feature branch, making changes in this feature branch, creating a pull request, addressing review comments, merging pull requests, and finally deleting the branch.</li>
+          <li>Feature branches should be given a short but descriptive name in order to allow collaborators to understand ongoing work.</li>
+          <li>Each time changes are pushed to the branch, the commit should be given a descriptive message to clarify what changes the commit contains.</li>
+          <li>Ensuring that each commit contains isolated, complete changes and has an explanatory message aids the team in debugging and reverting changes when desired.</li>
           <li>git status: checks what branch we are currently on</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
         </ul>
@@ -51,7 +87,25 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter your JavaScript notes here</li>
+          <li>JavaScript is a programming language that allows developers to add interactivity to websites through dynamic styling, animation, and more.</li>
+          <li>Variables are containers that store values and must be declared using the var keyword.</li>
+          <li>After declaring a variable, it must be given a value. The assignment operator (=) is used to assign specific data to be stored in a variable.</li>
+          <li>The value of a variable can be retrieved by calling the variable name.</li>
+          <li>String variables have a sequence of text enclosed in quotation marks as the value.</li>
+          <li>Number variables are not enclosed in quotation marks.</li>
+          <li>Boolean variables have a true or false value.</li>
+          <li>An array is a variable that holds multiple values in a single reference, typically this data is related in some way.</li>
+          <li>The array index is the location of a data item in an array and is identified by a unique number.</li>
+          <li>Object variables can be anything, including all of the above variable types.</li>
+          <li>Comments are text that can be added along with code but is ignored by the browser due to how they are marked.</li>
+          <li>An operator is a mathematical symbol that produces a result based on two values.</li>
+          <li>The strict equality operator tests if two values are equal and returns a Boolean result.</li>
+          <li>Conditionals are code structures that test if an expression returns true or not. A common form of conditionals is if…else statements.</li>
+          <li>A function defines a body of code that tells the computer how to perform a certain task when the function name is called.</li>
+          <li>Events are code structures that listen for activity in the browser and run code in response when this activity occurs.</li>
+          <li>Control flow is the order in which a computer executes code in a script. JavaScript code runs from the first statement at the top of the page down to the last statement at the bottom of the page.</li>
+          <li>Conditional statements and loops allow developers to instruct a program to deviate from the normal linear flow if certain conditions are met.</li>
+          <li>The “for loop” uses a predictable pattern of array indices to perform a task on all items in an array. This task is performed by allowing a single code block to be executed repeatedly for each index.</li>
         </ul>
       </section>
     </main>
